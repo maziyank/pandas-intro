@@ -29,6 +29,7 @@ Python for Data Analysis
   </span>
 </div>
 
+
 <a href="https://github.com/mofdac" target="_blank" alt="GitHub"
   class="abs-br m-6 text-xl icon-btn opacity-50 !border-none !hover:text-white">
   <carbon-logo-github />
@@ -493,9 +494,9 @@ df_grouped.Age.plot.bar()
 df.Age.plot.hist()
 ```
 
-<img border="rounded" style="width:400px;height:300px" src="public/bar.png">
+<img border="rounded" style="width:400px;height:300px" src="bar.png">
 
-<img border="rounded" style="width:400px;height:300px" src="public/hist.png">
+<img border="rounded" style="width:400px;height:300px" src="hist.png">
 
 </div>
 
@@ -517,9 +518,9 @@ df.plot.scatter(x="Age", y="Fare")
 df.Age.plot.box()
 ```
 
-<img border="rounded" style="width:400px;height:300px" src="public/bar.png">
+<img border="rounded" style="width:400px;height:300px" src="bar.png">
 
-<img border="rounded" style="width:400px;height:300px" src="public/box.png">
+<img border="rounded" style="width:400px;height:300px" src="box.png">
 
 </div>
 
