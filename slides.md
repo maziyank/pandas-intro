@@ -518,7 +518,7 @@ df.plot.scatter(x="Age", y="Fare")
 df.Age.plot.box()
 ```
 
-<img border="rounded" style="width:400px;height:300px" src="bar.png">
+<img border="rounded" style="width:400px;height:300px" src="scatter.png">
 
 <img border="rounded" style="width:400px;height:300px" src="box.png">
 
