@@ -8,7 +8,7 @@ background: https://images.unsplash.com/photo-1604756904189-117de3259294?ixid=Mn
 # apply any windi css classes to the current slide
 class: 'text-center'
 # default dark
-colorSchema: 'dark'
+colorSchema: 'auto'
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
 # some information about the slides, markdown enabled
@@ -493,9 +493,9 @@ df_grouped.Age.plot.bar()
 df.Age.plot.hist()
 ```
 
-<img border="rounded" style="width:400px;height:300px" src="assets/bar.png">
+<img border="rounded" style="width:400px;height:300px" src="public/bar.png">
 
-<img border="rounded" style="width:400px;height:300px" src="assets/hist.png">
+<img border="rounded" style="width:400px;height:300px" src="public/hist.png">
 
 </div>
 
@@ -517,9 +517,9 @@ df.plot.scatter(x="Age", y="Fare")
 df.Age.plot.box()
 ```
 
-<img border="rounded" style="width:400px;height:300px" src="assets/bar.png">
+<img border="rounded" style="width:400px;height:300px" src="public/bar.png">
 
-<img border="rounded" style="width:400px;height:300px" src="assets/plot.png">
+<img border="rounded" style="width:400px;height:300px" src="public/box.png">
 
 </div>
 
