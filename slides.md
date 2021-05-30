@@ -176,7 +176,7 @@ class: px-20
 
 ---
 layout: image-left
-image: https://telset.id/wp-content/uploads/2020/10/Penyebab-Titanic-Tenggelam.jpg
+image: https://upload.wikimedia.org/wikipedia/en/1/19/Titanic_%28Official_Film_Poster%29.png
 ---
 
 # Reading Data
@@ -491,9 +491,9 @@ df_grouped.Age.plot.bar()
 df.Age.plot.hist()
 ```
 
-<img border="rounded" style="width:400px;height:300px" src="https://ibb.co/Gc5vRwH">
+<img border="rounded" style="width:400px;height:300px" src="https://pasteboard.co/K4fkLgS.png">
 
-<img border="rounded" style="width:400px;height:300px" src="https://ibb.co/f10Ms2m">
+<img border="rounded" style="width:400px;height:300px" src="https://pasteboard.co/K4fkSOa.png">
 
 </div>
 
@@ -515,9 +515,9 @@ df.plot.scatter(x="Age", y="Fare")
 df.Age.plot.box()
 ```
 
-<img border="rounded" style="width:400px;height:300px" src="https://ibb.co/njSPgNb">
+<img border="rounded" style="width:400px;height:300px" src="https://pasteboard.co/K4fkYtt.png">
 
-<img border="rounded" style="width:400px;height:300px" src="https://ibb.co/2hDsGkv">
+<img border="rounded" style="width:400px;height:300px" src="https://pasteboard.co/K4fl6B3.png">
 
 </div>
 
