@@ -7,6 +7,8 @@ download: true
 background: https://images.unsplash.com/photo-1604756904189-117de3259294?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80
 # apply any windi css classes to the current slide
 class: 'text-center'
+# default dark
+colorSchema: 'dark'
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
 # some information about the slides, markdown enabled
@@ -491,9 +493,9 @@ df_grouped.Age.plot.bar()
 df.Age.plot.hist()
 ```
 
-<img border="rounded" style="width:400px;height:300px" src="https://pasteboard.co/K4fkLgS.png">
+<img border="rounded" style="width:400px;height:300px" src="https://raw.githubusercontent.com/maziyank/pandas-intro/main/assets/bar.png">
 
-<img border="rounded" style="width:400px;height:300px" src="https://pasteboard.co/K4fkSOa.png">
+<img border="rounded" style="width:400px;height:300px" src="https://raw.githubusercontent.com/maziyank/pandas-intro/main/assets/hist.png">
 
 </div>
 
@@ -515,9 +517,9 @@ df.plot.scatter(x="Age", y="Fare")
 df.Age.plot.box()
 ```
 
-<img border="rounded" style="width:400px;height:300px" src="https://pasteboard.co/K4fkYtt.png">
+<img border="rounded" style="width:400px;height:300px" src="https://raw.githubusercontent.com/maziyank/pandas-intro/main/assets/scatter.png">
 
-<img border="rounded" style="width:400px;height:300px" src="https://pasteboard.co/K4fl6B3.png">
+<img border="rounded" style="width:400px;height:300px" src="https://raw.githubusercontent.com/maziyank/pandas-intro/main/assets/plot.png">
 
 </div>
 
