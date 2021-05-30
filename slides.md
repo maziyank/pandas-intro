@@ -494,9 +494,9 @@ df_grouped.Age.plot.bar()
 df.Age.plot.hist()
 ```
 
-<img border="rounded" style="width:400px;height:300px" src="bar.png">
+<img border="rounded" style="width:400px;height:300px" src="https://i.postimg.cc/ Wz5qWKbr/bar.png">
 
-<img border="rounded" style="width:400px;height:300px" src="hist.png">
+<img border="rounded" style="width:400px;height:300px" src="https://i.postimg.cc/TYXW0VdC/hist.png">
 
 </div>
 
@@ -518,9 +518,9 @@ df.plot.scatter(x="Age", y="Fare")
 df.Age.plot.box()
 ```
 
-<img border="rounded" style="width:400px;height:300px" src="scatter.png">
+<img border="rounded" style="width:400px;height:300px" src="https://i.postimg.cc/nh3jnNvP/scatter.png">
 
-<img border="rounded" style="width:400px;height:300px" src="box.png">
+<img border="rounded" style="width:400px;height:300px" src="https://i.postimg.cc/xTYcM95Z/box.png">
 
 </div>
 
