@@ -525,6 +525,23 @@ df.Age.plot.box()
 </div>
 
 ---
+
+# Saving Data
+
+```
+# menyimpan ke file csv
+df.to_csv(filepath)
+
+# menyimpan ke file csv
+df.to_excel(filepath)
+
+# menyimpan ke file csv
+df.to_json(filepath)
+
+```
+
+
+---
 layout: center
 class: 'text-center pb-5 :'
 ---
@@ -532,3 +549,8 @@ class: 'text-center pb-5 :'
 # Thank You!
 
 Semoga bermanfaat.
+Materi ini bisa diakses di [sini](https://pandas-intro.vercel.app/)
+
+# Quiz Time
+
+SIap?
