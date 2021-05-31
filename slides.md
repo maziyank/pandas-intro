@@ -309,15 +309,15 @@ Terdapat beberapa macam cara untuk mengeksplorasi data pada DataFrame
 Memilih data dengan nama index / kolom (.loc).
 ```py
 
-  df.set_index("name", inplace = True)
-  # memilih baris index ke-2 kolom ke-0
+  # menjadikan kolom Name sebagai index
+  df.set_index("Name", inplace = True)
 
-  df.loc["Allen, Mr. William Henry", "sex"]
   # memilih baris dengan nama index "Allen, Mr. William Henry" dan kolom "sex"
+  df.loc["Allen, Mr. William Henry", "Sex"]
 
-  df.loc["Allen, Mr. William Henry":"Graham, Miss. Margaret Edith", "fare":"class"]
   # memilih baris dengan index mulai dari "Allen, Mr. William Henry" 
   # sampai "Graham, Miss. Margaret Edith" dan kolom "fare" sampai "class"
+  df.loc["Allen, Mr. William Henry":"Graham, Miss. Margaret Edith", "Fare":"Pclass"]
 ```
 
 Memilih single value data dengan nama index / kolom (.at).
@@ -336,10 +336,10 @@ Menggunakan conditional.
   df[boolean/conditional]
 
   # misal: memilih data dengan usia lebih dari 50
-  df[df.age > 50]
+  df[df.Age > 50]
 
   # misal: memilih data dengan usia lebih dari 50 dan kurang dari 70
-  df[df.age > 50 & df.age < 79]   
+  df[df.Age > 50 & df.Age < 79]   
 ```
 
 
@@ -349,10 +349,10 @@ Menggunakan query.
   df.query(expression)
 
   # misal: memilih data dengan usia lebih dari 50
-  df.query("age > 50")
+  df.query("Age > 50")
 
   # misal: memilih data dengan usia lebih dari 50 dan kurang dari 70
-  df.query("age > 50 & age < 70")
+  df.query("Age > 50 & Age < 70")
 ```
 
 
@@ -372,10 +372,10 @@ Contoh:
 
 ```py
 # Hanya satu kolom:
-dataframe.sort_values(by='age', ascending=False)
+dataframe.sort_values(by='Age', ascending=False)
 
 # Beberapa kolom:
-df.sort_values(by=["age", "pclass"], ascending = (False, True))
+df.sort_values(by=["Age", "Pclass"], ascending = (False, True))
 ```
 See [the guides](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html).
 
@@ -391,12 +391,12 @@ Contoh:
 
 ```py  
 # Kelompokan berdasarkan embark_town
-df_grouped = df.groupby(['embark_town']).mean()
+df_grouped = df.groupby(['Embark_town']).mean()
 
 # Aggregate functions: count(), mean(), sum(), min(), max(), median(), quantile(), var(), std()
 
 # Melihat value pada group embark_town
-df_grouped.get_group('embark_town')
+df_grouped.get_group('Embark_town')
 
 ```
 
@@ -444,7 +444,7 @@ Contoh:
 df.drop_duplicates()
 
 # Menghapus duplikat untuk spesifik kolom
-df.drop_duplicates(subset=['name'], keep='last')
+df.drop_duplicates(subset=['Name'], keep='last')
 
 ```
 
