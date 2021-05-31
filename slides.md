@@ -549,8 +549,14 @@ class: 'text-center pb-5 :'
 # Thank You!
 
 Semoga bermanfaat.
+
 Materi ini bisa diakses di [sini](https://pandas-intro.vercel.app/)
+
+---
+layout: center
+class: 'text-center pb-5 :'
+---
 
 # Quiz Time
 
-SIap?
+Siap? Join via joinmyquiz.com
